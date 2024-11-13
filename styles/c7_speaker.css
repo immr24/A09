@@ -65,9 +65,6 @@ header img {
     color: white;
     font-weight: bold;
 }
-#nav_menu a.current {
-	color: yellow;
-}
 #nav_menu ul ul {
     display: none;
     position: absolute;
@@ -92,14 +89,10 @@ section {
 	padding: 0 20px 20px 20px;
 }
 section h1 {
-	font-size: 150%;
-	padding: .5em 0 .25em 0;
-	margin: 0;
-}
-section h2 {
 	color: #800000;
-	font-size: 130%;
-	padding: .5em 0 .25em 0;
+	font-size: 150%;
+	padding-top: .5em;
+	margin: 0;
 }
 section p {
 	padding-bottom: .5em;
@@ -110,7 +103,6 @@ section blockquote {
 }
 section ul {
 	padding: 0 0 .25em 1.25em;
-	list-style-type: circle;
 }
 section li {
 	padding-bottom: .35em;
@@ -119,15 +111,10 @@ section li {
 /* the styles for the article */
 article {
 	padding: .5em 0;
-	border-top: 2px solid #800000;
-	border-bottom: 2px solid #800000;
 }
 article h2 {
-	padding-top: 0;
-}
-article h3 {
-	font-size: 105%;
-	padding-bottom: .25em;
+	font-size: 115%;
+	padding: 0 0 .25em 0;
 }
 article img {
 	float: right;
